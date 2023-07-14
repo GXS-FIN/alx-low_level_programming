@@ -13,11 +13,11 @@ int main(void)
 
   {
     if n > 0;
-    printf ("n is positive",%d/n)
-    else if n==0;
-    printf ("n is zero",%d/n)
-    else n<0;
-           printf ("n is negative",%d/n)
+    printf ("n is positive:%d/n", n);
+    else if n==0
+		 printf ("n is zero:%d/n", n);
+    else n<0
+           printf ("n is negative:%d/n", n);
            }
 	
 	return (0);
