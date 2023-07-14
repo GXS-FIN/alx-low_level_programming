@@ -7,11 +7,11 @@ int main(void)
 {
   int n;
   {
-    if (n > 0);
+    if n > 0;
     printf ("n is positive",%d/n)
-    else if (n==0);
+    else if n==0;
     printf ("n is zero",%d/n)
-    else (n<0)
+    else n<0;
 	   printf ("n is negative",%d/n)
 	   }
 	srand(time(0));
