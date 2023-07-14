@@ -2,6 +2,15 @@
 #include <stdio.h>
 #include <time.h>
 
+/**
+ * main - Entry point of the program
+ *
+ * This function generates a random number and determines if it is positive,
+ * negative, or zero.
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 int n;
