@@ -1,17 +1,19 @@
 #include <stdio.h>
 
-int main(void)
-{
-char c;
+int main(void) {
+int i;
 
-for (c = '0'; c <= '9'; c++)
-putchar(c);
+for (i = 0; i < 10; i++) {
+putchar(i + '0');
+}
 
-for (c = 'a'; c <= 'f'; c++)
-putchar(c);
+for (i = 0; i < 6; i++) {
+putchar(i + 'a');
+}
 
 putchar('\n');
 
 return 0;
 }
+
 
