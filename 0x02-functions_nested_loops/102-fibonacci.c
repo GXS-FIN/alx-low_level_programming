@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 void fibonacci(int n) {
-    int fib[n];
+    int fib[50];
     int i;
 
     // First two numbers in the sequence
