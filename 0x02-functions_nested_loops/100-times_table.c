@@ -22,13 +22,10 @@ void print_times_table(int n)
             {
                 printf(", ");
                 if (product < 10)
-                    printf(" ");
+                    printf("   ");
+                else if (product < 100)
+                    printf("  ");
             }
-
-            if (product < 100)
-                printf(" ");
-            if (product < 10)
-                printf(" ");
 
             printf("%d", product);
         }
