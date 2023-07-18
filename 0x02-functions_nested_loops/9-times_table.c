@@ -21,7 +21,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
-putchar(product + '0');
+_putchar(product + '0');
 }
 else
 {
